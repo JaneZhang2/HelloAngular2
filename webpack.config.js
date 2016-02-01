@@ -12,7 +12,8 @@ module.exports = {
   devServer: {
     inline: true,
     hot: true,
-    stats: 'errors-only'
+    stats: 'errors-only',
+    port: 1234
   },
   //resolve: {
   //  alias: {
